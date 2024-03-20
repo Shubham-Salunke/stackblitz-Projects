@@ -25,10 +25,10 @@ nav a {
   min-width: 9rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #aaa;
+  border: solid 1px rgb(22, 22, 22);
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: #1b1b1b;
 }
 
 nav a[aria-current='page'] {
@@ -43,4 +43,19 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-link {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+  margin-top: 5px;
 }
